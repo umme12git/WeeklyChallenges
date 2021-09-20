@@ -119,7 +119,7 @@ namespace ChallengesWithTestsMark8.Tests
             // Assert
             Assert.Equal(expected, actual);
         }
-
+/*
         [Theory]
         [InlineData("0", true)]
         [InlineData("123", true)]
@@ -144,7 +144,7 @@ namespace ChallengesWithTestsMark8.Tests
             // Assert
             Assert.Equal(expected, actual);
         }
-
+*/
         [Theory]
         [InlineData(new string[] { "test", null, "test" }, false)]
         [InlineData(new string[] { "test", null, "test", null }, false)]
